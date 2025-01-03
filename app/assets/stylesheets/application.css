@@ -19,23 +19,15 @@
  }
 
 .navbar {
-    background-color: black !important;
+    background-color: white !important;
 }
 
 .nav-link {
-    color: white !important;
+    color: black !important;
 }
 
 #logo {
-    float: left;
-    font-size: 1.7em;
-    color: #fff;
-    text-transform: uppercase;
-    letter-spacing: -1px;
-    font-weight: bold;
-  }
+    font-size: 3rem;
+    color: black;
+}
   
-  #logo:hover {
-    color: #fff;
-    text-decoration: none;
-  }

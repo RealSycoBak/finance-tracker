@@ -22,12 +22,12 @@
     <%= javascript_importmap_tags %>
   </head>
 
-  <body class="d-flex flex-column">
+  <body>
   
   <%= render "layouts/navigation" %>
-  <div id="page-content">
-  <p class="notice"><%= notice %></p>
-  <p class="alert"><%= alert %></p>
+  <div class="container">
+    <p class="notice"><%= notice %></p>
+    <p class="alert"><%= alert %></p>
     <%= yield %>
     </div>
   </body>
